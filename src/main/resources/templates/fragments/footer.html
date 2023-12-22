@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+
+    <link rel="stylesheet" th:href="@{/css/Chart.min.css}">
+
+    <link rel="stylesheet" th:href="@{/css/perfect-scrollbar.css}">
+    <link rel="stylesheet" th:href="@{/css/app.css}">
+    <link rel="shortcut icon" th:href="@{/images/favicon.svg}" type="image/x-icon">
+</head>
+<body>
+<footer th:fragment="footer"><!--footer-->
+    <div class="footer clearfix mb-0 text-muted">
+        <div class="float-start">
+            <p>2023 @ SpringBoot</p>
+        </div>
+        <div class="float-end">
+            <p>Crafted with <span class='text-danger'><i data-feather="heart"></i></span> by <a
+                    href="#">Group Project</a></p>
+        </div>
+    </div>
+</footer>
+<script th:src="@{/js/feather.min.js}"></script>
+<script th:src="@{/js/perfect-scrollbar.min.js}"></script>
+<script th:src="@{/js/app.js}"></script>
+
+<script th:src="@{/js/Chart.min.js}"></script>
+<script th:src="@{/js/apexcharts.min.js}"></script>
+<script th:src="@{/js/dashboard.js}"></script>
+
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>
